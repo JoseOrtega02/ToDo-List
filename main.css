@@ -30,3 +30,92 @@ ul{
 li {
 	
 }
+
+/*buttons*/
+.submint{
+	border: none;
+	background: #32a852;
+	color: white;
+	border-radius: 5px;
+	line-height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.submint:hover{
+	cursor: pointer;
+	background: #1c5916;
+	transition: 0.3s ease;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.clear{
+	border: none;
+	background: red;
+	color: white;
+	border-radius: 5px;
+	line-height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.clear:hover{
+	cursor: pointer;
+	background: #820e0e;
+	transition: 0.3s ease;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cancel{
+	background: red;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.cancel:hover{
+	cursor: pointer;
+	background: #820e0e;
+	transition: 0.3s ease;
+}
+
+.done{
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: green;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.done:hover{
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: #4bc736;
+	font-size: 14px;
+	transition: 0.2s ease;
+}
+
+.un{
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: #b52f2f;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.un:hover{
+	cursor: pointer;
+	background: #8a2121;
+}

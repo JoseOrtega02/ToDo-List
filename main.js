@@ -24,15 +24,15 @@ ul.addEventListener("click",(event) =>{
 		if (button.textContent === 'X') {
 			ul.removeChild(li);
 		}
-		if (button.textContent === 'done') {
+		if (button.textContent === 'Done') {
 			li.style.textDecorationLine = "line-through"
 			button.style.display = "none"
-			li.innerHTML += `<button>un</button>`
+			li.innerHTML += `<button class="un">un</button>`
 		}
 		if (button.textContent === 'un') {
 			li.style.textDecorationLine = "none"
 			button.style.display = "none"
-			li.innerHTML += `<button>done</button>`
+			li.innerHTML += `<button class="done">Done</button>`
 		}
 
 		
@@ -54,7 +54,7 @@ function submitItem(){
 	}else {
 
 	    const cancelBtn = `<button class="cancel">X</button> `
-	const item =  `<li>${itemContent} ${cancelBtn} <button id="done">done</button></li>`
+	const item =  `<li>${itemContent} ${cancelBtn} <button id="done" class="done">Done</button></li>`
 	ul.innerHTML += item
 	}
 
